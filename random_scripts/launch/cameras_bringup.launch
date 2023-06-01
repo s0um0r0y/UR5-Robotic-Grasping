@@ -1,0 +1,15 @@
+<launch>
+    <!-- Kinect 1 -->
+    <include file="$(find freenect_launch)/launch/freenect.launch" />
+    
+    <!-- Kinect 2 -->
+    <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch"/>
+
+    <!-- Astra camera -->
+    <include file="$(find astra_camera)/launch/astra.launch"/>
+
+
+    <node pkg="random_scripts" type="image_sync" name="image_sync" />
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find random_scripts)/rviz/camera_setup.rviz" />
+</launch>

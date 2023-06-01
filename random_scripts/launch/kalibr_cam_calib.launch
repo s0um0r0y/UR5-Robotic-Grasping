@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="kalibr" type="kalibr_calibrate_cameras" name="calibration" args="--target april_6x6.yaml --bag session.bag --models pinhole-radtan pinhole-radtan pinhole-radtan --topics /kinect2/hd/image_color_sync /kinect1/rgb/image_color_sync /astra_camera/color/image_raw_sync"/>
+</launch>

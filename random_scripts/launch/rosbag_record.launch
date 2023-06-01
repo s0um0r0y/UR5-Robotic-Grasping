@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="rosbag" type="record" name="camera_record" args="-o session /kinect2/hd/image_color_sync /kinect1/rgb/image_color_sync /astra_camera/color/image_raw_sync"/>
+</launch>

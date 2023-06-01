@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/omkar/ros_workspaces/robotics_lab_ws/devel/lib/python3/dist-packages",
+        "/home/omkar/ros_workspaces/general_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/omkar/ros_workspaces/robotics_lab_ws/devel/lib/python3/dist-packages",
+        "/home/omkar/ros_workspaces/general_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
